@@ -1,0 +1,14 @@
+scanpy 
+pandas 
+numpy 
+scipy 
+matplotlib 
+seaborn 
+scikit-learn
+ipykernel
+os
+requests
+tarfile
+shutil
+pathlib
+

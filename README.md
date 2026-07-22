@@ -38,9 +38,9 @@ A systematic benchmark of six statistical, graph-based, matrix-completion, and d
 
 ## Overview
 
-Single-cell RNA sequencing (scRNA-seq) suffers from dropout events — technical zeros that mask true gene expression and complicate downstream analyses such as clustering, differential expression, and trajectory inference. While imputation methods have been benchmarked extensively in generic scRNA-seq contexts, their behavior on disease-specific datasets remains understudied.
+Single-cell RNA sequencing (scRNA-seq) suffers from dropout events technical zeros that mask true gene expression and complicate downstream analyses such as clustering, differential expression, and trajectory inference. While imputation methods have been benchmarked extensively in generic scRNA-seq contexts, their behavior on disease-specific datasets remains understudied.
 
-This repository benchmarks six imputation strategies — **MAGIC**, **IterativeImputer**, **KNNImputer**, **Mean Imputation**, **SoftImpute**, and a **GAN-based** approach — on a publicly available scRNA-seq dataset of PBMCs from AMI patients. Artificial missingness is introduced at three levels (10%, 20%, 30%) under a Missing Completely at Random (MCAR) framework, repeated across 10 independent runs per condition, and each method's recovery is scored against the unmasked ground truth across four complementary metrics.
+This repository benchmarks six imputation strategies — **MAGIC**, **IterativeImputer**, **KNNImputer**, **Mean Imputation**, **SoftImpute**, and a **GAN-based** approach on a publicly available scRNA-seq dataset of PBMCs from AMI patients. Artificial missingness is introduced at three levels (10%, 20%, 30%) under a Missing Completely at Random (MCAR) framework, repeated across 10 independent runs per condition, and each method's recovery is scored against the unmasked ground truth across four complementary metrics.
 
 ## Dataset
 

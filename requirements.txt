@@ -1,14 +1,15 @@
-scanpy 
-pandas 
-numpy 
-scipy 
-matplotlib 
-seaborn 
+scanpy==1.9.5
+pandas
+numpy
+scipy
+matplotlib
+seaborn
 scikit-learn
-ipykernel
-os
+fancyimpute
+magic-impute
+scvi-tools
+torch
+GEOparse
 requests
-tarfile
-shutil
-pathlib
+ipykernel 
 
